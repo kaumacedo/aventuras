@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap" rel="stylesheet"> 
+    <title>kai e suas vidas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>kai é um delegado que foi demitido de sua unidade,agora ele procura um novo começo para a sua carreira</p>
+            <button class="btn-proximo" data-proximo="1">miami</button>
+            <button class="btn-proximo" data-proximo="2">san franscisco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em miami,visitar a sua família ou ir nos negocios da familia?</p>
+            <button class="btn-proximo" data-proximo="3">ir ver a familia</button>
+            <button class="btn-proximo" data-proximo="4">passar apenas na empresa e depois ir para o hotel</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em san franscisco,tenta começar com a sua carreira de delegado de novo,com a proposta de entrar como investigador particular para um rico ou trabalhar para um departamento?</p>
+            <button class="btn-proximo" data-proximo="5">trabalhar como investigador particular</button>
+            <button class="btn-proximo" data-proximo="6">trabalhar para um departamento</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>em miami visitando a familia teria que contar que foi demitido do seu trabalho ou seguir para o hotel</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o hotel</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Voce decide ir para o hotel descançar,se questionando como contaria para familia que foi demitido do seu trabalho
+                      </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>san franscisco voce marcar uma reuniao com o rico,que,quer voce como investigador particular</p>
+            <button class="btn-proximo" data-proximo="7">avalia a proposta mas nao gosta,entao aceita trabalhar para o departamento do fbi</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>voce vai conhecer o departamento do fbi negociar a proposta feita ou so vai conhecer o lugar</p>
+            <button class="btn-proximo" data-proximo="8">conhecer o lugar e negociar a proposta</button>
+        </div>
+
+        
+        <div class="passo" id="passo-7">
+            <p>conheceu o departamento e negociaram a proposta,agora vamos procurar uma casa!</p>
+            <button class="btn-proximo" data-proximo="7">procurar uma casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>bairro north beach voce achou uma casa</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a casa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>na casa de north beach,há muitos problemas e preço muito alto</p>
+            <button class="btn-proximo" data-proximo="11">Retornar e tentar outro bairro</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>voce vai explorar um bairro chamado little italy,indicado pelo corretor.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Retornando e indo para little italy, você finalmente encontrou uma casa boa no bairro e ficara com ela.</p>
+            <button class="btn-proximo" data-proximo="11">fechar o contrato da casa e se acomodar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
